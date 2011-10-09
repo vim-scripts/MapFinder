@@ -1,0 +1,11 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3767
+
+This plugin is useful if you use plugins which define lots of maps and it is not easy remember them at first (for example some latex plugins). It provides commands:
+Map[!]   {pattern}
+Nmap[!]   {pattern}
+Imap[!]   {pattern}
+Smap[!]   {pattern}
+Vmap[!]   {pattern}
+Omap[!]   {pattern}
+Lmap[!]   {pattern}
+They will list maps which rhs matches the vim {pattern}. If bang is used the {pattern} is matched by the output of the corresponding map command with only first column removed (which indicates the mode).
